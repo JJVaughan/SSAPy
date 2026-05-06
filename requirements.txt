@@ -1,7 +1,5 @@
 graphviz
 numpy
-pandas
-h5py
 scipy
 jplephem
 astropy
@@ -9,14 +7,13 @@ pyerfa
 emcee
 lmfit
 sgp4
-matplotlib
-pypdf2
-ipyvolume
-ipython_genutils
-ipython
 pytest
-imageio
 tqdm
 build
 cibuildwheel
 delocate
+ipyvolume
+ipython_genutils
+pytest-cov
+pytest-xdist
+flake8

@@ -5,7 +5,8 @@ from . import _ssapy
 from .orbit import Orbit, EarthObserver, OrbitalObserver
 from .propagator import (
     KeplerianPropagator, SeriesPropagator, RK4Propagator, SGP4Propagator,
-    SciPyPropagator, RK78Propagator, RK8Propagator
+    SciPyPropagator, RK78Propagator, RK8Propagator, 
+    LeapfrogPropagator, Leapfrog4Propagator
 )
 from .compute import rv, dircos, radec, altaz, quickAltAz, radecRate, groundTrack
 from .accel import Accel, AccelKepler, AccelSum, AccelEarthRad, AccelSolRad, AccelDrag, AccelConstNTW
@@ -29,7 +30,6 @@ from . import constants
 from . import plotUtils
 from . import io
 from . import utils
-from . import simple
 
 from astropy.time import Time, TimeDelta
 import astropy.units as u
